@@ -13,6 +13,7 @@ https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=4cd569ffb3e
 
 
 **Response**: 
+```
 {
   "coord": {
     "lon": -122.08,
@@ -57,6 +58,7 @@ https://api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=4cd569ffb3e
   "name": "Mountain View",
   "cod": 200
   }    
+  ```
   
 # Forecast API
 To display Next 7 days forecast 
@@ -65,7 +67,7 @@ To display Next 7 days forecast
 https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&appid=4cd569ffb3ecc3bffe9c0587ff02109f
 
 **Response**: 
-                   
+```                   
 {
    "city":{
       "id":2643743,
@@ -118,7 +120,7 @@ https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&appid=4cd56
       },
       ....
 
-
+```
 
 # Design:
 
